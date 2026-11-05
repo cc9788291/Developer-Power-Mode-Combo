@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Developer Power Mode Demo</title>
+  <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+  <main class="workspace">
+    <p class="eyebrow">Developer Power Mode Combo</p>
+    <h1>Writing Workspace</h1>
+    <p class="intro">Type in either field below. The extension counts keyboard edits and keeps the pets moving while you pause.</p>
+    <label for="title">Title</label>
+    <input id="title" type="text" placeholder="Give this note a title">
+    <label for="notes">Notes</label>
+    <textarea id="notes" rows="8" placeholder="Start typing here..."></textarea>
+    <label for="editor">Contenteditable demo</label>
+    <div id="editor" class="editor" contenteditable="true" role="textbox" aria-label="Contenteditable demo">This is a standard contenteditable editor.</div>
+  </main>
+  <script src="content.js"></script>
+</body>
+</html>

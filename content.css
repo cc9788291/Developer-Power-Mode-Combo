@@ -1,0 +1,26 @@
+#dpmc-counter {
+  position: fixed;
+  z-index: 2147483647;
+  top: 8px;
+  right: 12px;
+  pointer-events: none;
+  color: #d7fff2;
+  background: #10152de8;
+  border: 1px solid #45ffd0;
+  border-radius: 6px;
+  box-shadow: 0 0 14px #45ffd077, inset 0 0 8px #45ffd022;
+  padding: 4px 9px;
+  font: 700 12px/1.1 Consolas, monospace;
+  letter-spacing: .08em;
+  text-shadow: 0 0 7px #45ffd0;
+}
+
+#dpmc-counter.dpmc-shake {
+  animation: dpmc-shake .22s steps(2, end);
+}
+
+@keyframes dpmc-shake {
+  25% { transform: translateX(-3px); }
+  50% { transform: translateX(3px); }
+  75% { transform: translateX(-2px); }
+}
