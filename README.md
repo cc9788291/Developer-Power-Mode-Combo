@@ -4,6 +4,7 @@ Developer Power Mode Combo is a local-only Chrome Manifest V3 extension. It adds
 
 ![Power Mode overlay](assets/overlay-screenshot.png)
 ![Settings popup](assets/popup-screenshot.png)
+![Writing Workspace demo](assets/writing-workspace-screenshot.png)
 
 ![Animated pets](assets/pets.gif)
 
